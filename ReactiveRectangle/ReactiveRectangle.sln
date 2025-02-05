@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveRectangle.Tests", "ReactiveRectangle.Tests\ReactiveRectangle.Tests.csproj", "{27D81BBD-0889-443F-AC35-4DFAF7C3F6D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveRectangle.Core", "ReactiveRectangle.Core\ReactiveRectangle.Core.csproj", "{38D7020E-CA2D-4DDB-A9C8-926E05D32997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveRectangle.Api", "ReactiveRectangle.Api\ReactiveRectangle.Api.csproj", "{06AF27CD-6D09-4BD8-915F-966416F1959F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveRectangle.Infrastructure", "ReactiveRectangle.Infrastructure\ReactiveRectangle.Infrastructure.csproj", "{E8EE75A4-399D-4CFC-87A3-401553E493A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveRectangle.Services", "ReactiveRectangle.Services\ReactiveRectangle.Services.csproj", "{894D55FD-287E-43C4-8335-C5977E7EC95F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4EDDC7F-600E-4A01-A01B-AD4BDC512219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4EDDC7F-600E-4A01-A01B-AD4BDC512219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4EDDC7F-600E-4A01-A01B-AD4BDC512219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4EDDC7F-600E-4A01-A01B-AD4BDC512219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D81BBD-0889-443F-AC35-4DFAF7C3F6D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D81BBD-0889-443F-AC35-4DFAF7C3F6D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D81BBD-0889-443F-AC35-4DFAF7C3F6D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D81BBD-0889-443F-AC35-4DFAF7C3F6D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D7020E-CA2D-4DDB-A9C8-926E05D32997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D7020E-CA2D-4DDB-A9C8-926E05D32997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D7020E-CA2D-4DDB-A9C8-926E05D32997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D7020E-CA2D-4DDB-A9C8-926E05D32997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06AF27CD-6D09-4BD8-915F-966416F1959F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06AF27CD-6D09-4BD8-915F-966416F1959F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06AF27CD-6D09-4BD8-915F-966416F1959F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06AF27CD-6D09-4BD8-915F-966416F1959F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8EE75A4-399D-4CFC-87A3-401553E493A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8EE75A4-399D-4CFC-87A3-401553E493A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8EE75A4-399D-4CFC-87A3-401553E493A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8EE75A4-399D-4CFC-87A3-401553E493A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{894D55FD-287E-43C4-8335-C5977E7EC95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{894D55FD-287E-43C4-8335-C5977E7EC95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{894D55FD-287E-43C4-8335-C5977E7EC95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{894D55FD-287E-43C4-8335-C5977E7EC95F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
