@@ -1,3 +1,3 @@
-namespace ReactiveRectangle.Services.Models;
+namespace ReactiveRectangle.Contracts.Models;
 
 public record ValidationResult(bool IsValid, string ErrorMessage = null);

@@ -1,4 +1,4 @@
-using System.ComponentModel.DataAnnotations;
+using ReactiveRectangle.Contracts.Exceptions;
 
 namespace ReactiveRectangle.Api.Middleware;
 

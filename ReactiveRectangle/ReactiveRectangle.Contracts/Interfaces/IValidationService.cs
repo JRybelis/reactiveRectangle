@@ -1,6 +1,6 @@
-using ReactiveRectangle.Services.Models;
+using ReactiveRectangle.Contracts.Models;
 
-namespace ReactiveRectangle.Services.Interfaces;
+namespace ReactiveRectangle.Contracts.Interfaces;
 
 public interface IValidationService
 {

@@ -1,5 +1,5 @@
-using ReactiveRectangle.Services.Interfaces;
-using ReactiveRectangle.Services.Models;
+using ReactiveRectangle.Contracts.Interfaces;
+using ReactiveRectangle.Contracts.Models;
 
 namespace ReactiveRectangle.Services.Services.Validation;
 
