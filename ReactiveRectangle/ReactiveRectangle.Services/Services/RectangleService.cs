@@ -1,8 +1,8 @@
 using System.ComponentModel.DataAnnotations;
-using ReactiveRectangle.Api.DTOs;
+using ReactiveRectangle.Contracts.DTOs;
+using ReactiveRectangle.Contracts.Interfaces;
 using ReactiveRectangle.Core.Models;
 using ReactiveRectangle.Infrastructure.Interfaces;
-using ReactiveRectangle.Services.Interfaces;
 
 namespace ReactiveRectangle.Services.Services;
 

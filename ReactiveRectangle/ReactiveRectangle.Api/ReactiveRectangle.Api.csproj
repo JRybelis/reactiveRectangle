@@ -12,7 +12,10 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ReactiveRectangle.Infrastructure\ReactiveRectangle.Infrastructure.csproj" />
+        <ProjectReference Include="..\ReactiveRectangle.Contracts\ReactiveRectangle.Contracts.csproj" />
+        <ProjectReference Include="..\ReactiveRectangle.Core\ReactiveRectangle.Contracts.csproj" />
+        <ProjectReference Include="..\ReactiveRectangle.Infrastructure\ReactiveRectangle.Infrastructure.csproj" />
+        <ProjectReference Include="..\ReactiveRectangle.Services\ReactiveRectangle.Services.csproj" />
     </ItemGroup>
 
 </Project>

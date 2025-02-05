@@ -1,6 +1,6 @@
-using ReactiveRectangle.Api.DTOs;
+using ReactiveRectangle.Contracts.DTOs;
 
-namespace ReactiveRectangle.Services.Interfaces;
+namespace ReactiveRectangle.Contracts.Interfaces;
 
 public interface IRectangleService
 {
