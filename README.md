@@ -74,54 +74,6 @@ Backend
 * xUnit
 
 ***
-### Project Structure
-
-#### Backend(.Net Solution)
-<details>
-<summary>ReactiveRectangle Solution Structure</summary>
-```
-ReactiveRectangle/
-├── ReactiveRectangle.Api/
-│   ├── Program.cs                   # App configuration
-│   ├── Extensions/                  # DI and endpoint setup
-│   └── Middleware/                  # Global error handler
-├── ReactiveRectangle.Contracts/
-│   ├── DTOs/                        # Data transfer objects
-│   ├── Exceptions/                  # Shared exceptions
-│   ├── Interfaces/                  # Service contracts
-│   └── Models/                      # Service models
-├── ReactiveRectangle.Core/
-│   └── Models/                      # Domain entities
-├── ReactiveRectangle.Infrastructure/
-│   ├── IO/                          # JSON operations
-│   └── Interfaces/                  # Storage contracts
-├── ReactiveRectangle.Services/
-│    └── Services/                   # Business logic
-└── ReactiveRectangle.Tests/         # Unit tests
-```
-</details>
-
-#### Frontend (React App)
-<details>
-<summary>ReactiveRectangle React app Structure</summary>
-```
-src/
-├── components/
-│   ├── Layout/
-│   │   └── Container.tsx            # Layout wrapper
-│   └── Rectangle/
-│       ├── Rectangle.tsx            # Main component
-│       └── RectangleResizer.tsx     # Resize controls
-├── hooks/
-│   └── useRectangle.ts              # Rectangle logic
-├── services/
-│   └── rectangleService.ts          # API integration
-└── types/
-    └── rectangle.ts                 # TypeScript types
-```
-</details>
-
-***
 
 ## Setup and Development
 
