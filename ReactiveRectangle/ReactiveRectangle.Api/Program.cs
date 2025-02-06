@@ -1,15 +1,13 @@
-using ReactiveRectangle.Infrastructure.Interfaces;
-using ReactiveRectangle.Infrastructure.IO;
+using ReactiveRectangle.Api.Extensions;
+using ReactiveRectangle.Api.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-// Infrastructure
-var jsonPath = Path.Combine(Directory.GetCurrentDirectory(), "Data", "rectangle.json");
-builder.Services.AddSingleton<IJsonStorage>(new JsonStorage(jsonPath));
+builder.Services.AddApplicationServices();
+builder.Services.AddCors();
 
 var app = builder.Build();
 
@@ -20,8 +18,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseMiddleware<GlobalExceptionHandler>();
 app.UseHttpsRedirection();
+app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
-
+app.MapRectangleEndpoints();
 
 app.Run();
