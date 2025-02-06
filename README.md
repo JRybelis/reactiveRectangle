@@ -77,8 +77,9 @@ Backend
 ### Project Structure
 
 #### Backend(.Net Solution)
+<details>
+<summary>ReactiveRectangle Solution Structure</summary>
 ReactiveRectangle/
-
 ├── ReactiveRectangle.Api/
 │   ├── Program.cs                   # App configuration
 │   ├── Extensions/                  # DI and endpoint setup
@@ -96,8 +97,11 @@ ReactiveRectangle/
 ├── ReactiveRectangle.Services/
 │    └── Services/                   # Business logic
 └── ReactiveRectangle.Tests/         # Unit tests
+</details>
 
 #### Frontend (React App)
+<details>
+<summary>ReactiveRectangle React app Structure</summary>
 src/
 ├── components/
 │   ├── Layout/
@@ -111,6 +115,7 @@ src/
 │   └── rectangleService.ts          # API integration
 └── types/
     └── rectangle.ts                 # TypeScript types
+</details>
 
 ***
 
