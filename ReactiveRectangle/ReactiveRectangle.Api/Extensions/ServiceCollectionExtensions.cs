@@ -11,7 +11,7 @@ public static class ServiceCollectionExtensions
 {
     public static IServiceCollection AddApplicationServices(this IServiceCollection services)
     {
-        var jsonPath = Path.Combine(Directory.GetCurrentDirectory(), "Infrastructure", "Data", "rectangle.json");
+        var jsonPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", "rectangle.json");
         services.AddSingleton<IJsonStorage>(new JsonStorage(jsonPath));
         services.AddScoped<IValidationService, ValidationService>();
         services.AddScoped<IRectangleService, RectangleService>();
